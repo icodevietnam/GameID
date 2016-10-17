@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.grw.com.idgame.MainActivity">
+    tools:context="id.grw.com.idgame.MainActivity"
+    android:background="@color/blackSilver">
 
     <ImageView
         android:layout_width="match_parent"
@@ -15,4 +16,27 @@
         android:id="@+id/gameImg"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/gameImg"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:id="@+id/btnHighScore"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_below="@+id/btnPlay"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>

@@ -13,5 +13,7 @@
     <style name="AppThemeBar" parent="Theme.AppCompat.Light">
         <item name="android:windowNoTitle">false</item>
     </style>
-
+    <style name="pinkBtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
 </resources>

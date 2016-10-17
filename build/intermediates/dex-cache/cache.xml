@@ -1,2 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_b0a52fde7fa514597e08cfd78be643040b46289a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_102f89fdac0a59c72a234314b78417f4076f5215/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_a920645046b27b5527689ffc0d69b3f7444e7f78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_241d08ec3a4b65bcbad377a167061a37d2da0558/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_c1853e2d686e5e60b8549284e517396bc9c54a80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_8dd5b29a4d8893d95c5862f81744092669de010c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_a99e9a9e271f3bf11973e65c528805f2ec5c4f36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_a60478188a2626b6406433902902034eb8a784eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_70695e74d2f6d669264ee82e0e036d0493ffa5c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_4c5923880636d1f67137b8e75bacd1c8dd19f853/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ffce017c22f196f2e84440180508c6a37c7966a0">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9d2f18e50ff4d32d3cf516170f37cdd1853ffe00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f0b6386ab1741ee858c8e3e61a744e2d9772ee4e">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9e96391e0b742594d7281841e6048876a8aecee7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/louisphan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_31e2b1eea36df6b25a820302af32883c266def54/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_a67e28c4d3513e097c6eb58f63be81d90eabf204/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_b97f68c0543df5939d328c4b9ec2778e7aa15d15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_24ed92997cde093c32a700f9488d3204b023fa4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Volumes/DATA/Freelancer/GameID/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_88639ab2259b989bb0871efaa7297248accb81d6/classes.dex" />
+    </item>
+
+</items>

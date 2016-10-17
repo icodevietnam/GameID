@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChooseLevelActivity" />
+        <activity android:name=".HighScoreActivity" />
+        <activity android:name=".Play"></activity>
     </application>
 
 </manifest>
