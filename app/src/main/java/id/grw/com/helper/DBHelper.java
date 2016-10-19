@@ -286,35 +286,35 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question18 = new Question();
         //Question 18
-        question18.setTitle("What's HCM city grade ?");
-        question18.setAnswer1("Type 1");
-        question18.setAnswer2("Type 2");
-        question18.setAnswer3("Special");
-        question18.setAnswer4("a and c");
-        question18.setCorrectAnswer("3");
+        question18.setTitle("What's district Dam Sen belongs ?");
+        question18.setAnswer1("Quan 11");
+        question18.setAnswer2("Tan Phu");
+        question18.setAnswer3("BinH Tan");
+        question18.setAnswer4("Tan Binh");
+        question18.setCorrectAnswer("1");
         question18.setType("medium");
         question18.setImage("3.jpg");
         insertQuestion(question18);
 
         Question question19 = new Question();
         //Question 19
-        question19.setTitle("How many citizens of HCM City from 2014 ?");
-        question19.setAnswer1("7.981.900");
-        question19.setAnswer2("7.521.138");
-        question19.setAnswer3("7.162.864");
-        question19.setAnswer4("8.253.584");
-        question19.setCorrectAnswer("1");
+        question19.setTitle("How many regular ports that HCM have?");
+        question19.setAnswer1("3");
+        question19.setAnswer2("4");
+        question19.setAnswer3("5");
+        question19.setAnswer4("6");
+        question19.setCorrectAnswer("2");
         question19.setType("medium");
         question19.setImage("4.jpg");
         insertQuestion(question19);
 
         Question question20 = new Question();
         //Question 20
-        question20.setTitle("What's HCM city grade ?");
-        question20.setAnswer1("Type 1");
-        question20.setAnswer2("Type 2");
-        question20.setAnswer3("Special");
-        question20.setAnswer4("a and c");
+        question20.setTitle("Detail main port at HCM City ?");
+        question20.setAnswer1("Binh Dong, Tan Thuan, Ton That Thuyet");
+        question20.setAnswer2("Ton That Thuyet, Binh Loi, Binh Phuoc");
+        question20.setAnswer3("Sai Gon, Ben Nghe, Nha Nghe, Tan Cang");
+        question20.setAnswer4("Sai Gon, Ben Nghe, Tan Thuan, Binh Loi");
         question20.setCorrectAnswer("3");
         question20.setType("medium");
         question20.setImage("5.jpg");
@@ -322,11 +322,11 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question21 = new Question();
         //Question 21
-        question21.setTitle("How many citizens of HCM City from 2014 ?");
-        question21.setAnswer1("7.981.900");
-        question21.setAnswer2("7.521.138");
-        question21.setAnswer3("7.162.864");
-        question21.setAnswer4("8.253.584");
+        question21.setTitle("What's the district Tan Son Nhat international airport belongs ?");
+        question21.setAnswer1("Tan Binh");
+        question21.setAnswer2("Tan Phu");
+        question21.setAnswer3("Binh Tan");
+        question21.setAnswer4("Phu Thanh");
         question21.setCorrectAnswer("1");
         question21.setType("medium");
         question21.setImage("6.jpg");
@@ -334,11 +334,11 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question22 = new Question();
         //Question 22
-        question22.setTitle("What's HCM city grade ?");
-        question22.setAnswer1("Type 1");
-        question22.setAnswer2("Type 2");
-        question22.setAnswer3("Special");
-        question22.setAnswer4("a and c");
+        question22.setTitle("The Financial System of HCM City ?");
+        question22.setAnswer1("UBND, HĐND, MTGPMN.");
+        question22.setAnswer2("UBND, HĐND, TAND, MTGPMN.");
+        question22.setAnswer3("UBND, HĐND, TAND.");
+        question22.setAnswer4("UBND, HĐND, TAND, Thành Ủy TPHCM.");
         question22.setCorrectAnswer("3");
         question22.setType("medium");
         question22.setImage("7.jpg");
@@ -346,36 +346,36 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question23 = new Question();
         //Question 23
-        question23.setTitle("How many citizens of HCM City from 2014 ?");
-        question23.setAnswer1("7.981.900");
-        question23.setAnswer2("7.521.138");
-        question23.setAnswer3("7.162.864");
-        question23.setAnswer4("8.253.584");
-        question23.setCorrectAnswer("1");
+        question23.setTitle("What's date the 'Nha Tho Duc Ba' was built ?");
+        question23.setAnswer1("11/4/1880");
+        question23.setAnswer2("7/10/1877");
+        question23.setAnswer3("8/1876");
+        question23.setAnswer4("10/11/1879");
+        question23.setCorrectAnswer("2");
         question23.setType("medium");
         question23.setImage("8.jpg");
         insertQuestion(question23);
 
         Question question24 = new Question();
         //Question 24
-        question24.setTitle("What's HCM city grade ?");
-        question24.setAnswer1("Type 1");
-        question24.setAnswer2("Type 2");
-        question24.setAnswer3("Special");
-        question24.setAnswer4("a and c");
-        question24.setCorrectAnswer("3");
+        question24.setTitle("The regular parks of HCM City ?");
+        question24.setAnswer1("Cong Vien Gia Dinh, Hoang Van Thu, Tao Dan");
+        question24.setAnswer2("Le Thi Rieng, Le Van Tam, 23/9");
+        question24.setAnswer3("30/4, Thao cam Vien");
+        question24.setAnswer4("All of them are corrects");
+        question24.setCorrectAnswer("4");
         question24.setType("medium");
         question24.setImage("9.jpg");
         insertQuestion(question24);
 
         Question question25 = new Question();
         //Question 25
-        question25.setTitle("How many citizens of HCM City from 2014 ?");
-        question25.setAnswer1("7.981.900");
-        question25.setAnswer2("7.521.138");
-        question25.setAnswer3("7.162.864");
-        question25.setAnswer4("8.253.584");
-        question25.setCorrectAnswer("1");
+        question25.setTitle("What's time the Thong Nhat President Department was built ?");
+        question25.setAnswer1("1/7/1962");
+        question25.setAnswer2("31/10/1966");
+        question25.setAnswer3("23/2/1868");
+        question25.setAnswer4("2/11/1963");
+        question25.setCorrectAnswer("3");
         question25.setType("medium");
         question25.setImage("10.jpg");
         insertQuestion(question25);
