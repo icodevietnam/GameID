@@ -382,59 +382,59 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question26 = new Question();
         //Question 26
-        question26.setTitle("What's HCM city grade ?");
-        question26.setAnswer1("Type 1");
-        question26.setAnswer2("Type 2");
-        question26.setAnswer3("Special");
-        question26.setAnswer4("a and c");
-        question26.setCorrectAnswer("3");
+        question26.setTitle("Where's History Museum VietNam located ?");
+        question26.setAnswer1("Nguyen Thai Hoc");
+        question26.setAnswer2("Ly Tu Trong");
+        question26.setAnswer3("Ham Nghi");
+        question26.setAnswer4("Nguyen Binh Khiem");
+        question26.setCorrectAnswer("4");
         question26.setType("medium");
         question26.setImage("11.jpg");
         insertQuestion(question26);
 
         Question question27 = new Question();
         //Question 27
-        question27.setTitle("How many citizens of HCM City from 2014 ?");
-        question27.setAnswer1("7.981.900");
-        question27.setAnswer2("7.521.138");
-        question27.setAnswer3("7.162.864");
-        question27.setAnswer4("8.253.584");
-        question27.setCorrectAnswer("1");
+        question27.setTitle("How many wars in District 1 ?");
+        question27.setAnswer1("8");
+        question27.setAnswer2("9");
+        question27.setAnswer3("10");
+        question27.setAnswer4("11");
+        question27.setCorrectAnswer("3");
         question27.setType("medium");
         question27.setImage("12.jpg");
         insertQuestion(question27);
 
         Question question28 = new Question();
         //Question 28
-        question28.setTitle("What's HCM city grade ?");
-        question28.setAnswer1("Type 1");
-        question28.setAnswer2("Type 2");
-        question28.setAnswer3("Special");
-        question28.setAnswer4("a and c");
-        question28.setCorrectAnswer("3");
+        question28.setTitle("Which wards belongs District 1 ?");
+        question28.setAnswer1("Tan Dinh, Da Kao, Ben Nghe, Ben Thanh");
+        question28.setAnswer2("Nguyen Thai Binh, Cau Ong Lanh, Co Giang, Cau Kho");
+        question28.setAnswer3("Nguyen Cu Trinh, Pham Ngu Lao");
+        question28.setAnswer4("Above're correct");
+        question28.setCorrectAnswer("4");
         question28.setType("medium");
         question28.setImage("13.jpg");
         insertQuestion(question28);
 
         Question question29 = new Question();
         //Question 29
-        question29.setTitle("How many citizens of HCM City from 2014 ?");
-        question29.setAnswer1("7.981.900");
-        question29.setAnswer2("7.521.138");
-        question29.setAnswer3("7.162.864");
-        question29.setAnswer4("8.253.584");
-        question29.setCorrectAnswer("1");
+        question29.setTitle("Two statue reliefs in front of, what its image ?");
+        question29.setAnswer1("Unicorn");
+        question29.setAnswer2("Lion");
+        question29.setAnswer3("Dragon");
+        question29.setAnswer4("Ladies");
+        question29.setCorrectAnswer("4");
         question29.setType("medium");
         question29.setImage("14.jpg");
         insertQuestion(question29);
 
         Question question30 = new Question();
         //Question 30
-        question30.setTitle("How many citizens of HCM City from 2014 ?");
-        question30.setAnswer1("7.981.900");
-        question30.setAnswer2("7.521.138");
-        question30.setAnswer3("7.162.864");
-        question30.setAnswer4("8.253.584");
+        question30.setTitle("What's the football stadium located in HCM and was choose by V-l ?");
+        question30.setAnswer1("Thong Nhat");
+        question30.setAnswer2("Phu Tho");
+        question30.setAnswer3("Quan Khu 7");
+        question30.setAnswer4("Phan Dinh Phung");
         question30.setCorrectAnswer("1");
         question30.setType("medium");
         question30.setImage("15.jpg");
@@ -442,83 +442,83 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question31 = new Question();
         //Question 31
-        question31.setTitle("What's HCM city grade ?");
-        question31.setAnswer1("Type 1");
-        question31.setAnswer2("Type 2");
-        question31.setAnswer3("Special");
-        question31.setAnswer4("a and c");
-        question31.setCorrectAnswer("3");
+        question31.setTitle("The General TV Chanel of HCM City ?");
+        question31.setAnswer1("SCTV");
+        question31.setAnswer2("HTV");
+        question31.setAnswer3("FPT-Play");
+        question31.setAnswer4("K+");
+        question31.setCorrectAnswer("2");
         question31.setType("hard");
         question31.setImage("1.jpg");
         insertQuestion(question31);
 
         Question question32 = new Question();
         //Question 32
-        question32.setTitle("How many citizens of HCM City from 2014 ?");
-        question32.setAnswer1("7.981.900");
-        question32.setAnswer2("7.521.138");
-        question32.setAnswer3("7.162.864");
-        question32.setAnswer4("8.253.584");
-        question32.setCorrectAnswer("1");
+        question32.setTitle("What's district Bach Khoa University located ?");
+        question32.setAnswer1("Quan 11");
+        question32.setAnswer2("Quan Tan Binh");
+        question32.setAnswer3("Quan Binh Tan");
+        question32.setAnswer4("Quan 10");
+        question32.setCorrectAnswer("4");
         question32.setType("hard");
         question32.setImage("2.jpg");
         insertQuestion(question32);
 
         Question question33 = new Question();
         //Question 33
-        question33.setTitle("What's HCM city grade ?");
-        question33.setAnswer1("Type 1");
-        question33.setAnswer2("Type 2");
-        question33.setAnswer3("Special");
-        question33.setAnswer4("a and c");
-        question33.setCorrectAnswer("3");
+        question33.setTitle("What's district Binh Quoi Travel located ?");
+        question33.setAnswer1("Binh Tan");
+        question33.setAnswer2("Binh Thanh");
+        question33.setAnswer3("Go Vap");
+        question33.setAnswer4("Thu Duc");
+        question33.setCorrectAnswer("2");
         question33.setType("hard");
         question33.setImage("3.jpg");
         insertQuestion(question33);
 
         Question question34 = new Question();
         //Question 34
-        question34.setTitle("How many citizens of HCM City from 2014 ?");
-        question34.setAnswer1("7.981.900");
-        question34.setAnswer2("7.521.138");
-        question34.setAnswer3("7.162.864");
-        question34.setAnswer4("8.253.584");
-        question34.setCorrectAnswer("1");
+        question34.setTitle("What's district Sai Gon Train Station located ?");
+        question34.setAnswer1("Quan 1");
+        question34.setAnswer2("Quan 3");
+        question34.setAnswer3("Tan Binh");
+        question34.setAnswer4("Quan 10");
+        question34.setCorrectAnswer("2");
         question34.setType("hard");
         question34.setImage("4.jpg");
         insertQuestion(question34);
 
         Question question35 = new Question();
         //Question 35
-        question35.setTitle("What's HCM city grade ?");
-        question35.setAnswer1("Type 1");
-        question35.setAnswer2("Type 2");
-        question35.setAnswer3("Special");
+        question35.setTitle("What're district Thu Thiem Tunnel merge ?");
+        question35.setAnswer1("Quan 2 and Quan 3");
+        question35.setAnswer2("Quan 1 and Quan 2");
+        question35.setAnswer3("Quan 2 and Quan 7");
         question35.setAnswer4("a and c");
-        question35.setCorrectAnswer("3");
+        question35.setCorrectAnswer("2");
         question35.setType("hard");
         question35.setImage("5.jpg");
         insertQuestion(question35);
 
         Question question36 = new Question();
         //Question 36
-        question36.setTitle("How many citizens of HCM City from 2014 ?");
-        question36.setAnswer1("7.981.900");
-        question36.setAnswer2("7.521.138");
-        question36.setAnswer3("7.162.864");
-        question36.setAnswer4("8.253.584");
-        question36.setCorrectAnswer("1");
+        question36.setTitle("What're district Dai Lo Vo Van Kiet cut-off ?");
+        question36.setAnswer1("1,3,5,6");
+        question36.setAnswer2("1,5,6");
+        question36.setAnswer3("1,5,Tan Phu");
+        question36.setAnswer4("1,5,6,Binh Tan");
+        question36.setCorrectAnswer("4");
         question36.setType("hard");
         question36.setImage("6.jpg");
         insertQuestion(question36);
 
         Question question37 = new Question();
         //Question 37
-        question37.setTitle("What's HCM city grade ?");
-        question37.setAnswer1("Type 1");
-        question37.setAnswer2("Type 2");
-        question37.setAnswer3("Special");
-        question37.setAnswer4("a and c");
+        question37.setTitle("What're district Phu My Bridge merge ?");
+        question37.setAnswer1("Quan 2 , Binh Chanh");
+        question37.setAnswer2("Quan 7 , Nha Be");
+        question37.setAnswer3("Quan 2, Quan 7");
+        question37.setAnswer4("Quan 1, Quan 2");
         question37.setCorrectAnswer("3");
         question37.setType("hard");
         question37.setImage("7.jpg");
@@ -526,47 +526,47 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question38 = new Question();
         //Question 38
-        question38.setTitle("How many citizens of HCM City from 2014 ?");
-        question38.setAnswer1("7.981.900");
-        question38.setAnswer2("7.521.138");
-        question38.setAnswer3("7.162.864");
-        question38.setAnswer4("8.253.584");
-        question38.setCorrectAnswer("1");
+        question38.setTitle("Bo To is famous food of?");
+        question38.setAnswer1("Can Gio");
+        question38.setAnswer2("Tan Hung");
+        question38.setAnswer3("Cu Chi");
+        question38.setAnswer4("Phu Hoa");
+        question38.setCorrectAnswer("3");
         question38.setType("hard");
         question38.setImage("8.jpg");
         insertQuestion(question38);
 
         Question question39 = new Question();
         //Question 39
-        question39.setTitle("What's HCM city grade ?");
-        question39.setAnswer1("Type 1");
-        question39.setAnswer2("Type 2");
-        question39.setAnswer3("Special");
-        question39.setAnswer4("a and c");
-        question39.setCorrectAnswer("3");
+        question39.setTitle("What's Tu Linh of Suoi Tien park ?");
+        question39.setAnswer1("Dong Tay Nam Bac");
+        question39.setAnswer2("Long Lan Quy Phung");
+        question39.setAnswer3("Xuan Ha Thu Dong");
+        question39.setAnswer4("Mai Lan Cuc Truc");
+        question39.setCorrectAnswer("2");
         question39.setType("hard");
         question39.setImage("9.jpg");
         insertQuestion(question39);
 
         Question question40 = new Question();
         //Question 40
-        question40.setTitle("How many citizens of HCM City from 2014 ?");
-        question40.setAnswer1("7.981.900");
-        question40.setAnswer2("7.521.138");
-        question40.setAnswer3("7.162.864");
-        question40.setAnswer4("8.253.584");
-        question40.setCorrectAnswer("1");
+        question40.setTitle("What's famous history location of Cu Chi ?");
+        question40.setAnswer1("Quang Trung Nguyen Hue pagoda");
+        question40.setAnswer2("Dia Dao");
+        question40.setAnswer3("Bo Tat Thich Quang Duc statue");
+        question40.setAnswer4("Lang Ong");
+        question40.setCorrectAnswer("2");
         question40.setType("hard");
         question40.setImage("10.jpg");
         insertQuestion(question40);
 
         Question question41 = new Question();
         //Question 41
-        question41.setTitle("What's HCM city grade ?");
-        question41.setAnswer1("Type 1");
-        question41.setAnswer2("Type 2");
-        question41.setAnswer3("Special");
-        question41.setAnswer4("a and c");
+        question41.setTitle("What's time Nghinh Ong Can Gio contribute ?");
+        question41.setAnswer1("1/7 Lunar Year");
+        question41.setAnswer2("15/8 Lunar Year");
+        question41.setAnswer3("15/9 Lunar Year");
+        question41.setAnswer4("1/9 Lunar Year");
         question41.setCorrectAnswer("3");
         question41.setType("hard");
         question41.setImage("11.jpg");
@@ -574,23 +574,23 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question42 = new Question();
         //Question 42
-        question42.setTitle("How many citizens of HCM City from 2014 ?");
-        question42.setAnswer1("7.981.900");
-        question42.setAnswer2("7.521.138");
-        question42.setAnswer3("7.162.864");
-        question42.setAnswer4("8.253.584");
-        question42.setCorrectAnswer("1");
+        question42.setTitle("What's district Dao Khi belongs ?");
+        question42.setAnswer1("Cu Chi");
+        question42.setAnswer2("Nha Be");
+        question42.setAnswer3("Can Gio");
+        question42.setAnswer4("Binh Chanh");
+        question42.setCorrectAnswer("3");
         question42.setType("hard");
         question42.setImage("12.jpg");
         insertQuestion(question42);
 
         Question question43 = new Question();
         //Question 43
-        question43.setTitle("What's HCM city grade ?");
-        question43.setAnswer1("Type 1");
-        question43.setAnswer2("Type 2");
-        question43.setAnswer3("Special");
-        question43.setAnswer4("a and c");
+        question43.setTitle("What's district Can Giuoc river through out ?");
+        question43.setAnswer1("Can Gio");
+        question43.setAnswer2("Nha Be");
+        question43.setAnswer3("Binh Chanh");
+        question43.setAnswer4("Can Duoc");
         question43.setCorrectAnswer("3");
         question43.setType("hard");
         question43.setImage("13.jpg");
@@ -598,23 +598,23 @@ public class DBHelper extends SQLiteOpenHelper {
 
         Question question44 = new Question();
         //Question 44
-        question44.setTitle("How many citizens of HCM City from 2014 ?");
-        question44.setAnswer1("7.981.900");
-        question44.setAnswer2("7.521.138");
-        question44.setAnswer3("7.162.864");
-        question44.setAnswer4("8.253.584");
-        question44.setCorrectAnswer("1");
+        question44.setTitle("Which district Hoang Phap pagoda belongs ?");
+        question44.setAnswer1("Thu Duc");
+        question44.setAnswer2("Cu Chi");
+        question44.setAnswer3("Hoc Mon");
+        question44.setAnswer4("Nha Be");
+        question44.setCorrectAnswer("3");
         question44.setType("hard");
         question44.setImage("14.jpg");
         insertQuestion(question44);
 
         Question question45 = new Question();
         //Question 45
-        question45.setTitle("How many citizens of HCM City from 2014 ?");
-        question45.setAnswer1("7.981.900");
-        question45.setAnswer2("7.521.138");
-        question45.setAnswer3("7.162.864");
-        question45.setAnswer4("8.253.584");
+        question45.setTitle("University Campus located at ?");
+        question45.setAnswer1("Nha Be");
+        question45.setAnswer2("Hoc Mon");
+        question45.setAnswer3("Thu Duc");
+        question45.setAnswer4("Go Vap");
         question45.setCorrectAnswer("1");
         question45.setType("hard");
         question45.setImage("15.jpg");
