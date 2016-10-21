@@ -36,43 +36,56 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/questionImage"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="21dp"
-        android:id="@+id/answer1"
-        android:transitionGroup="false" />
-
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/answer1"
-        android:layout_toEndOf="@+id/answer1"
+        android:layout_below="@+id/txtTitle"
         android:layout_marginTop="24dp"
-        android:id="@+id/answer2" />
+        android:textColor="@color/white"
+        android:id="@+id/answerListVal" >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value 1"
+            android:checked="true"
+            android:layout_below="@+id/questionImage"
+            android:layout_marginTop="250dp"
+            android:textColor="@color/white"
+            android:id="@+id/radioVal1" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/answer2"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="22dp"
-        android:id="@+id/answer3" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value 2"
+            android:id="@+id/radioVal2"
+            android:layout_below="@+id/radioVal1"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/answer3"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="25dp"
-        android:id="@+id/answer4" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_below="@+id/radioVal2"
+            android:layout_marginTop="24dp"
+            android:text="Value 3"
+            android:checked="true"
+            android:id="@+id/radioVal3" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioVal3"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/white"
+            android:text="Value 4"
+            android:id="@+id/radioVal4" />
+
+    </RadioGroup>
 
     <Button
         android:text="Next Question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/answer4"
+        android:layout_below="@+id/answerListVal"
         android:layout_alignParentStart="true"
         android:layout_marginTop="13dp"
-        android:id="@+id/btnNext"
-        style="@style/Widget.AppCompat.Button.Colored" />
+        android:id="@+id/btnNext" />
 </RelativeLayout>

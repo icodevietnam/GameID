@@ -1,10 +1,12 @@
 package id.grw.com.idgame;
 
 import android.content.Intent;
+import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.widget.ImageView;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 import java.util.Collections;
@@ -32,24 +34,46 @@ public class PlayActivity extends AppCompatActivity {
         myDB = new DBHelper(this);
 
         TextView txtTitle = (TextView)findViewById(R.id.txtTitle);
+        RadioButton radioValue1 = (RadioButton)findViewById(R.id.radioVal1);
+        RadioButton radioValue2 = (RadioButton)findViewById(R.id.radioVal2);
+        RadioButton radioValue3 = (RadioButton)findViewById(R.id.radioVal3);
+        RadioButton radioValue4 = (RadioButton)findViewById(R.id.radioVal4);
+        ImageView questionImg = (ImageView)findViewById(R.id.questionImage);
         // Get Intent
         Intent intent = getIntent();
         String level = intent.getStringExtra("level");
-        int point = getPointByLevel(level);
+        int standartPoint = getPointByLevel(level);
         int count = intent.getIntExtra("beginPlay",1);
-        Log.d("Count ne:","Biendem" + count);
         Intent intentNew = null;
         if(count <= 1 ){
             String idStr = convertfromList(myDB,level,MEDIUM_QUESTION);
             String[] arr = idStr.split(",");
             Question question = myDB.getQuestionById(Integer.parseInt(arr[count-1]));
             txtTitle.setText(question.getTitle());
+            radioValue1.setText(question.getAnswer1());
+            radioValue2.setText(question.getAnswer2());
+            radioValue3.setText(question.getAnswer3());
+            radioValue4.setText(question.getAnswer4());
+            //set question image
+            Drawable drawable = getDrawable(question.getImage());
+            questionImg.setImageDrawable(drawable);
         }else if(count > 1 && count <= MEDIUM_QUESTION){
             intent.getStringExtra("idQuestion");
-
         }else{
-            intentNew = new Intent(PlayActivity.this,ThankYouActivity.class);
         }
+    }
+
+    private Drawable getDrawable(String picName){
+        String name ="";
+        if(picName.contains("jpeg")){
+            name = picName.substring(0,picName.length()-5);
+        }else{
+            name = picName.substring(0,picName.length()-4);
+        }
+        Resources res = getResources();
+        int resId = res.getIdentifier(name,"drawable",getPackageName());
+        Drawable drawable = res.getDrawable(resId);
+        return drawable;
     }
 
     private Integer getPointByLevel(String level){
