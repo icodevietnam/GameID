@@ -5,6 +5,8 @@ import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -39,12 +41,12 @@ public class PlayActivity extends AppCompatActivity {
         RadioButton radioValue3 = (RadioButton)findViewById(R.id.radioVal3);
         RadioButton radioValue4 = (RadioButton)findViewById(R.id.radioVal4);
         ImageView questionImg = (ImageView)findViewById(R.id.questionImage);
+        Button btnNext = (Button) findViewById(R.id.btnNext);
         // Get Intent
         Intent intent = getIntent();
         String level = intent.getStringExtra("level");
         int standartPoint = getPointByLevel(level);
         int count = intent.getIntExtra("beginPlay",1);
-        Intent intentNew = null;
         if(count <= 1 ){
             String idStr = convertfromList(myDB,level,MEDIUM_QUESTION);
             String[] arr = idStr.split(",");
@@ -60,7 +62,15 @@ public class PlayActivity extends AppCompatActivity {
         }else if(count > 1 && count <= MEDIUM_QUESTION){
             intent.getStringExtra("idQuestion");
         }else{
+            
         }
+
+        btnNext.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 
     private Drawable getDrawable(String picName){
