@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import java.util.Collections;
@@ -26,6 +27,10 @@ public class PlayActivity extends AppCompatActivity {
 
     public static final  Integer MAX_QUESTION = 12;
 
+    private String level;
+
+    private int count;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,34 +46,52 @@ public class PlayActivity extends AppCompatActivity {
         RadioButton radioValue3 = (RadioButton)findViewById(R.id.radioVal3);
         RadioButton radioValue4 = (RadioButton)findViewById(R.id.radioVal4);
         ImageView questionImg = (ImageView)findViewById(R.id.questionImage);
+        RadioGroup correctQuestion = (RadioGroup) findViewById(R.id.answerListVal);
         Button btnNext = (Button) findViewById(R.id.btnNext);
         // Get Intent
-        Intent intent = getIntent();
-        String level = intent.getStringExtra("level");
-        int standartPoint = getPointByLevel(level);
-        int count = intent.getIntExtra("beginPlay",1);
-        if(count <= 1 ){
-            String idStr = convertfromList(myDB,level,MEDIUM_QUESTION);
-            String[] arr = idStr.split(",");
-            Question question = myDB.getQuestionById(Integer.parseInt(arr[count-1]));
-            txtTitle.setText(question.getTitle());
-            radioValue1.setText(question.getAnswer1());
-            radioValue2.setText(question.getAnswer2());
-            radioValue3.setText(question.getAnswer3());
-            radioValue4.setText(question.getAnswer4());
-            //set question image
-            Drawable drawable = getDrawable(question.getImage());
-            questionImg.setImageDrawable(drawable);
-        }else if(count > 1 && count <= MEDIUM_QUESTION){
-            intent.getStringExtra("idQuestion");
+        final Intent intent = getIntent();
+        level = intent.getStringExtra("level");
+        final String idStr;
+        final int standartPoint = getPointByLevel(level);
+        count = intent.getIntExtra("beginPlay",1);
+        if(count == 1){
+            idStr = convertfromList(myDB,level,MEDIUM_QUESTION);
         }else{
-            
+            idStr = intent.getStringExtra("idStr");
         }
+        String[] arr = idStr.split(",");
+        Question question = myDB.getQuestionById(Integer.parseInt(arr[count-1]));
+        txtTitle.setText("Cau " + count + ":" + question.getTitle());
+        radioValue1.setText(question.getAnswer1());
+        radioValue2.setText(question.getAnswer2());
+        radioValue3.setText(question.getAnswer3());
+        radioValue4.setText(question.getAnswer4());
+        //set question image
+        Drawable drawable = getDrawable(question.getImage());
+        questionImg.setImageDrawable(drawable);
+
+        
+
 
         btnNext.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-
+                int score = 0;
+                Intent newIntent = null;
+                if(count >= 1 && count <MEDIUM_QUESTION){
+                    count++;
+                    newIntent = new Intent(PlayActivity.this,PlayActivity.class);
+                    newIntent.putExtra("level",level);
+                    newIntent.putExtra("beginPlay",count);
+                    newIntent.putExtra("idStr",idStr);
+                    newIntent.putExtra("score",score);
+                    startActivity(newIntent);
+                }else{
+                    newIntent  = new Intent(PlayActivity.this,ThankYouActivity.class);
+                    newIntent.putExtra("count",count);
+                    newIntent.putExtra("score",score);
+                    startActivity(newIntent);
+                }
             }
         });
     }
