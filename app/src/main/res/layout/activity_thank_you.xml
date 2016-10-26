@@ -8,6 +8,38 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.grw.com.idgame.ThankYouActivity">
+    tools:context="id.grw.com.idgame.ThankYouActivity"
+    android:background="@android:color/background_dark" >
 
+    <TextView
+        android:text="Thank You !!!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textThankyou"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textThankyou"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textRecommend"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRecommend"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="53dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/btnHome" />
 </RelativeLayout>

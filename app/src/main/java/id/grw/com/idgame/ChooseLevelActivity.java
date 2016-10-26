@@ -46,7 +46,10 @@ public class ChooseLevelActivity extends AppCompatActivity {
                     Intent intent = new Intent(ChooseLevelActivity.this,PlayActivity.class);
                     intent.putExtra("level", Level.EASY);
                     intent.putExtra("beginPlay",1);
+                    intent.putExtra("name",name);
                     startActivity(intent);
+                    finish();
+
                 }else {
                     toast.show();
                 }
@@ -61,7 +64,9 @@ public class ChooseLevelActivity extends AppCompatActivity {
                     Intent intent = new Intent(ChooseLevelActivity.this, PlayActivity.class);
                     intent.putExtra("level", Level.MEDIUM);
                     intent.putExtra("beginPlay", 1);
+                    intent.putExtra("name",name);
                     startActivity(intent);
+                    finish();
                 }else {
                     toast.show();
                 }
@@ -76,7 +81,9 @@ public class ChooseLevelActivity extends AppCompatActivity {
                     Intent intent = new Intent(ChooseLevelActivity.this,PlayActivity.class);
                     intent.putExtra("level", Level.HARD);
                     intent.putExtra("beginPlay",1);
+                    intent.putExtra("name",name);
                     startActivity(intent);
+                    finish();
                 }else{
                     toast.show();
                 }

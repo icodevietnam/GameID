@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnPlay = (Button) this.findViewById(R.id.btnPlay);
         Button btnHighScore = (Button) this.findViewById(R.id.btnHighScore);
 
-        final MediaPlayer mp = MediaPlayer.create(this,R.raw.multichoice);
+        final MediaPlayer mp = MediaPlayer.create(this,R.raw.gold);
         mp.start();
 
         btnPlay.setOnClickListener(new View.OnClickListener(){
@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 mp.stop();
                 Intent intent = new Intent(MainActivity.this,ChooseLevelActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 mp.stop();
                 Intent intent = new Intent(MainActivity.this,HighScoreActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
