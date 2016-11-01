@@ -156,7 +156,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question1.setAnswer4("a and c");
             question1.setCorrectAnswer("3");
             question1.setType("easy");
-            question1.setImage("a1.jpeg");
+            question1.setImage("a1.jpg");
             insertQuestion(question1);
 
             Question question2 = new Question();
@@ -168,7 +168,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question2.setAnswer4("8.253.584");
             question2.setCorrectAnswer("1");
             question2.setType("easy");
-            question2.setImage("a2.jpeg");
+            question2.setImage("a2.jpg");
             insertQuestion(question2);
 
             Question question3 = new Question();
@@ -204,7 +204,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question5.setAnswer4("17 Quan, 6 Huyen");
             question5.setCorrectAnswer("2");
             question5.setType("easy");
-            question5.setImage("a5.jpeg");
+            question5.setImage("a5.jpg");
             insertQuestion(question5);
 
             Question question6 = new Question();
@@ -264,7 +264,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question10.setAnswer4("Tan Binh, Phu Nhuan, Thu Duc, Nha Be");
             question10.setCorrectAnswer("1");
             question10.setType("easy");
-            question10.setImage("a10.jpeg");
+            question10.setImage("a10.jpg");
             insertQuestion(question10);
 
             Question question11 = new Question();
@@ -337,7 +337,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question16.setAnswer4("3: Raining, Drying, Sunny");
             question16.setCorrectAnswer("2");
             question16.setType("medium");
-            question16.setImage("a1.jpeg");
+            question16.setImage("a1.jpg");
             insertQuestion(question16);
 
             Question question17 = new Question();
@@ -349,7 +349,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question17.setAnswer4("Ham Nghi");
             question17.setCorrectAnswer("3");
             question17.setType("medium");
-            question17.setImage("a2.jpeg");
+            question17.setImage("a2.jpg");
             insertQuestion(question17);
 
             Question question18 = new Question();
@@ -385,7 +385,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question20.setAnswer4("Sai Gon, Ben Nghe, Tan Thuan, Binh Loi");
             question20.setCorrectAnswer("3");
             question20.setType("medium");
-            question20.setImage("a5.jpeg");
+            question20.setImage("a5.jpg");
             insertQuestion(question20);
 
             Question question21 = new Question();
@@ -445,7 +445,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question25.setAnswer4("2/11/1963");
             question25.setCorrectAnswer("3");
             question25.setType("medium");
-            question25.setImage("a10.jpeg");
+            question25.setImage("a10.jpg");
             insertQuestion(question25);
 
             Question question26 = new Question();
@@ -517,7 +517,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question31.setAnswer4("K+");
             question31.setCorrectAnswer("2");
             question31.setType("hard");
-            question31.setImage("a1.jpeg");
+            question31.setImage("a1.jpg");
             insertQuestion(question31);
 
             Question question32 = new Question();
@@ -529,7 +529,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question32.setAnswer4("Quan 10");
             question32.setCorrectAnswer("4");
             question32.setType("hard");
-            question32.setImage("a2.jpeg");
+            question32.setImage("a2.jpg");
             insertQuestion(question32);
 
             Question question33 = new Question();
@@ -565,7 +565,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question35.setAnswer4("a and c");
             question35.setCorrectAnswer("2");
             question35.setType("hard");
-            question35.setImage("a5.jepg");
+            question35.setImage("a5.jpg");
             insertQuestion(question35);
 
             Question question36 = new Question();
@@ -625,7 +625,7 @@ public class DBHelper extends SQLiteOpenHelper {
             question40.setAnswer4("Lang Ong");
             question40.setCorrectAnswer("2");
             question40.setType("hard");
-            question40.setImage("a10.jpeg");
+            question40.setImage("a10.jpg");
             insertQuestion(question40);
 
             Question question41 = new Question();
@@ -688,24 +688,6 @@ public class DBHelper extends SQLiteOpenHelper {
             question45.setImage("a15.jpg");
             insertQuestion(question45);
 
-            //Result 1
-            Result result1 = new Result();
-            result1.setName("Hai");
-            result1.setPoint("50");
-            DateFormat df = new SimpleDateFormat("dd/MM HH:mm");
-            Date date = Calendar.getInstance().getTime();
-            String now = df.format(date);
-            result1.setDate(now);
-            insertResult(result1);
-
-            //Result 1
-            Result result2 = new Result();
-            result2.setName("Hai Le");
-            result2.setPoint("30");
-            result2.setDate(now);
-            insertResult(result2);
-
-            Log.d("Init import database:", "Import data successfully");
         }
 
     }

@@ -88,6 +88,7 @@ public class PlayActivity extends AppCompatActivity {
                     newIntent.putExtra("idStr",idStr);
                     newIntent.putExtra("name",name);
                     newIntent.putExtra("score",getScore(correctQuestion,R.id.radioVal1,R.id.radioVal2,R.id.radioVal3,R.id.radioVal4,question,score,standartPoint,newIntent));
+                    Log.d("array",idStr);
                     Log.d("Question Id:",question.getId()+"");
                     startActivity(newIntent);
                     finish();

@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
                 mp.stop();
                 Intent intent = new Intent(MainActivity.this,ChooseLevelActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -52,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 mp.stop();
                 Intent intent = new Intent(MainActivity.this,HighScoreActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
     }
